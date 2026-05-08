@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BYIRINGIRO Valentin - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .about {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #1e3a8a;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BYIRINGIRO Valentin</h1>
+    <p>Engineering & IoT Projects Portfolio</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I am BYIRINGIRO Valentin, a passionate developer and electronics enthusiast.
+      I build smart systems using Arduino and modern technologies to solve real-world problems.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>SMART-NOVA-SOLUTION</h3>
+        <p>Smart automation and control system project.</p>
+        <a href="https://github.com/Valentin72-sell/SMART-NOVA-SOLUTION" target="_blank">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>LED Blink (No Push Button)</h3>
+        <p>Simple LED blinking system without input button.</p>
+        <a href="https://github.com/Valentin72-sell/LED-blink-with-no-pushbutton" target="_blank">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>Smart Irrigation System</h3>
+        <p>Automatic irrigation based on soil conditions.</p>
+        <a href="https://github.com/Valentin72-sell/IRRIGATION-SYSTEM" target="_blank">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>LED Blink (Push Button)</h3>
+        <p>LED control using a push button interface.</p>
+        <a href="https://github.com/Valentin72-sell/LED-blink-with-pushbutton" target="_blank">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>Fantastic GAAS</h3>
+        <p>Innovative electronics and embedded project.</p>
+        <a href="https://github.com/Valentin72-sell/fantastic-gaas" target="_blank">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>Valentinconker</h3>
+        <p>Personal development and experimental project.</p>
+        <a href="https://github.com/Valentin72-sell/Valentinconker" target="_blank">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 BYIRINGIRO Valentin. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
